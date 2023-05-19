@@ -1,0 +1,24 @@
+ 
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" 
+	xmlns:th="http://www.thymeleaf.org">
+
+    <head>
+        <title>Cadastro de título</title>
+    </head>
+    <body>
+    
+
+        <form method="POST" enctype="multipart/form-data" action="/leituras">
+            <div>
+            <label for="file">Escolha um Arquivo Para Upload</label>
+            <br>
+            <input type="file" id="file" name="file" multiple />
+            </div>
+            <div>
+            <button>Enviar</button>
+            </div>
+        </form>
+
+    </body>
+</html>
